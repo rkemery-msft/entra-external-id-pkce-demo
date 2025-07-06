@@ -30,25 +30,25 @@ Ideal for Cloud Solution Architects and developers who want a production-grade e
 ## Setup
 
 1. **Clone the repo**  
-   \\```bash
+   ```bash
    git clone https://github.com/your-org/entra-external-id-pkce-demo.git
    cd entra-external-id-pkce-demo
-   \\```
+   ```
 
 2. **Install dependencies**  
-   \\```bash
+   ```bash
    pip install requests PyJWT cryptography
-   \\```
+   ```
 
 3. **Configure environment variables**  
-   \\```bash
+   ```bash
    export TENANT_NAME="<YOUR_TENANT_NAME>"       # e.g. demo-tenant (no .ciamlogin.com)
    export TENANT_GUID="<YOUR_TENANT_GUID>"
    export CLIENT_ID="<YOUR_CLIENT_ID>"
    export CLIENT_SECRET="<YOUR_CLIENT_SECRET>"
    export REDIRECT_URI="https://jwt.ms"
    export NONCE="randomString1234"
-   \\```
+   ```
 
 ---
 
@@ -56,9 +56,9 @@ Ideal for Cloud Solution Architects and developers who want a production-grade e
 
 Run the demo script and follow the prompts:
 
-   \\```bash
+   ```bash
    python3 sanitized_ciam_test.py
-   \\```
+   ```
 
 1. The script prints a **code_verifier** & **code_challenge**.  
 2. It displays the `/authorize` URL—open it in a private/incognito browser.  
