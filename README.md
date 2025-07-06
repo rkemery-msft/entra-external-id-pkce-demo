@@ -57,7 +57,7 @@ Ideal for Cloud Solution Architects and developers who want a production-grade e
 Run the demo script and follow the prompts:
 
    ```bash
-   python3 sanitized_ciam_test.py
+   python3 entra_external_id_pkce_demo.py
    ```
 
 1. The script prints a **code_verifier** & **code_challenge**.  
@@ -95,4 +95,4 @@ Run the demo script and follow the prompts:
 - [OAuth 2.0 authorization code flow with PKCE (Microsoft identity platform)](https://learn.microsoft.com/azure/active-directory/develop/v2-oauth2-auth-code-flow?tabs=python)  
 - [Quickstart: Create an external tenant (Microsoft Entra External ID)](https://learn.microsoft.com/azure/active-directory/external-identities/quickstart-create-external-tenant)  
 - [Overview: User flows in Entra External ID](https://learn.microsoft.com/azure/active-directory/external-identities/user-flow-overview)  
-- [Quickstart: Sign in users in a Single-Page App (SPA)](https://learn.microsoft.com/azure/active-directory/develop/quickstart-v2-javascript)  
+- [Quickstart: Sign in users in a Single-Page App (SPA)](https://learn.microsoft.com/azure/active-directory/develop/quickstart-v2-javascript)
