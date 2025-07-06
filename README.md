@@ -37,7 +37,7 @@ Ideal for Cloud Solution Architects and developers who want a production-grade e
 
 2. **Install dependencies**  
    ```bash
-   pip install requests PyJWT cryptography
+   pip3 install "PyJWT[crypto]"
    ```
 
 3. **Configure environment variables**  
