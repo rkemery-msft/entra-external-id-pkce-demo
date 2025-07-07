@@ -7,7 +7,9 @@ A Python sample demonstrating the OAuth 2.0 Authorization Code flow with PKCE ag
 3. Exchange the one-time code for tokens (including a refresh token) using your client secret  
 4. Validate the returned ID token against your tenant’s JWKS  
 
-Ideal for Cloud Solution Architects and developers who want a production-grade example of token security without using the implicit flow.
+Warning:
+
+This code is not production-ready. It lacks error handling, secure token storage, input validation, and other critical security features required for real-world applications. Do not use this script as-is in production environments. Always follow Microsoft’s security best practices when implementing authentication flows in your applications.
 
 ---
 
