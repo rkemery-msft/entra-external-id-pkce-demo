@@ -99,6 +99,6 @@ Run the demo script and follow the prompts:
 ## References
 
 - [OAuth 2.0 authorization code flow with PKCE (Microsoft identity platform)](https://learn.microsoft.com/azure/active-directory/develop/v2-oauth2-auth-code-flow?tabs=python)  
-- [Quickstart: Create an external tenant (Microsoft Entra External ID)](https://learn.microsoft.com/azure/active-directory/external-identities/quickstart-create-external-tenant)  
-- [Overview: User flows in Entra External ID](https://learn.microsoft.com/azure/active-directory/external-identities/user-flow-overview)  
+- [Quickstart: Create an external tenant (Microsoft Entra External ID)](https://learn.microsoft.com/en-us/entra/external-id/customers/how-to-create-external-tenant-portal)  
+- [Overview: User flows in Entra External ID](https://learn.microsoft.com/en-us/entra/external-id/customers/how-to-user-flow-sign-up-sign-in-customers)  
 - [Quickstart: Sign in users in a Single-Page App (SPA)](https://learn.microsoft.com/azure/active-directory/develop/quickstart-v2-javascript)
