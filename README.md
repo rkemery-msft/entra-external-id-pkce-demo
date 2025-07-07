@@ -13,7 +13,7 @@ This code is not production-ready. It lacks robust error handling, secure token 
 
 Do not use this script as-is in production environments.
 
-Always follow [Microsoft’s security best practices](https://learn.microsoft.com/en-us/entra/architecture/secure-best-practices) when implementing authentication flows in your applications.
+Always follow [Microsoft’s security best practices](https://learn.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices) when implementing authentication flows in your applications.
 
 ---
 
